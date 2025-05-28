@@ -98,7 +98,7 @@ const GameScreen = () => {
             colors={[Colors.gradient1, Colors.gradient2]}
             style={styles.container}
           >
-            <Text style={styles.label}>Enter a your guess: </Text>
+            <Text style={styles.label}>Enter your guess: </Text>
 
             <TextInput
               style={styles.input}
