@@ -21,7 +21,7 @@ const GameOver = () => {
             style={styles.image}
           />
         </View>
-        <Text style={styles.description}>It took you {rounds} to guess {randomNumber}.</Text>
+        <Text style={styles.description}>It took you {rounds} rounds to guess {randomNumber}.</Text>
         <View style={styles.buttonContainer}>
           <Button
             text="Play Again"
